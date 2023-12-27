@@ -1,0 +1,14 @@
+.NavBar {
+  display: flex;
+  justify-content: space-between;
+
+  .NavBarLeft {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+  .NavBarRight {
+    display: flex;
+    justify-content: flex-end;
+  }
+}
