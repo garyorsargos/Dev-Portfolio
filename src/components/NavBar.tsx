@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import { Component } from 'react'
 import NavBarItem from './navBarComponents/NavBarItem.tsx'
 import '../styles/NavBar.scss'
 class NavBar extends Component {
@@ -7,7 +7,7 @@ class NavBar extends Component {
       <>
         <div className='NavBar'>
           <div className='NavLeft'>
-            <NavBarItem text='garyorsargos.dev'/>
+            <NavBarItem text='garyorsargos.dev' href=''/>
           </div>
           <div className='NavRight'>
             <NavBarItem text='About Me' href=''/>
