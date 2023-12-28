@@ -1,14 +1,31 @@
 .NavBar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
+  align-content: center;
+  padding: 20px;
+  background-color: steelblue;
 
-  .NavBarLeft {
+  .NavLeft {
+    font-size: 22px;
+    font-weight: 600;
+    font-style: italic;
     display: flex;
     justify-content: flex-start;
+    align-content: center;
+    flex-grow: 3;
   }
 
-  .NavBarRight {
-    display: flex;
-    justify-content: flex-end;
+  .NavRight {
+    display: inline-flex;
+    align-content: center;
+    flex-grow: 1;
+    justify-content: space-between;
+    padding-right: 5%;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  NavBarItem {
+    align-content: center;
   }
 }

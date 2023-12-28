@@ -7,10 +7,12 @@ class NavBar extends Component {
       <>
         <div className='NavBar'>
           <div className='NavLeft'>
-            <NavBarItem/>
+            <NavBarItem text='garyorsargos.dev'/>
           </div>
           <div className='NavRight'>
-            <NavBarItem/>
+            <NavBarItem text='About Me'/>
+            <NavBarItem text='Projects'/>
+            <NavBarItem text='Experience'/>
           </div>
         </div>
       </>

@@ -1,15 +1,15 @@
 import React, { Component } from 'react'
 
+interface Props {
+  text: string;
+}
 
-
-class NavBarItem extends Component {
-  render () {
-    return (
+const NavBarItem = ({text}: Props) => {
+  return (
       <div>
-        
+        {text}
       </div>
-    )
-  }
+  )
 }
 
 export default NavBarItem
