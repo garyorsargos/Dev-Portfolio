@@ -10,9 +10,9 @@ class NavBar extends Component {
             <NavBarItem text='garyorsargos.dev'/>
           </div>
           <div className='NavRight'>
-            <NavBarItem text='About Me'/>
-            <NavBarItem text='Projects'/>
-            <NavBarItem text='Experience'/>
+            <NavBarItem text='About Me' href=''/>
+            <NavBarItem text='Projects' href=''/>
+            <NavBarItem text='Experience' href=''/>
           </div>
         </div>
       </>

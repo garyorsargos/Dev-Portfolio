@@ -2,12 +2,13 @@ import React, { Component } from 'react'
 
 interface Props {
   text: string;
+  href: string;
 }
 
-const NavBarItem = ({text}: Props) => {
+const NavBarItem = ({text, href}: Props) => {
   return (
       <div>
-        {text}
+        <a href={href}>{text}</a>
       </div>
   )
 }
